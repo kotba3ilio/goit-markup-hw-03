@@ -138,12 +138,17 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
+.list_item-round {
+  border-radius: 0px 0px 4px 4px;
+}
+
 .team_list {
   text-align: center;
 }
 
 .portfolio_list {
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 
 .feature_title {
@@ -160,20 +165,21 @@ img {
 }
 
 .card_title {
-  font-weight: 20px;
-  margin-top: 32px;
+  text-align: center;
   margin-bottom: 8px;
 }
 
 .card_description {
-  margin-bottom: 32px;
+  text-align: center
 }
 
 .card_body {
-  border-left: 1px solid #E7E9FC;
-  border-right: 1px solid #E7E9FC;
-  border-bottom: 1px solid #E7E9FC;
-  padding: 0 16px;
+  padding: 32px 0;
+}
+
+.card_body-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .footer {
@@ -182,12 +188,20 @@ img {
   padding: 100px 0;
 }
 
+.footer_logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer_colored-text {
   color: #F4F4FD;
 }
 
 .footer_description {
-  width: 264px;
-  margin-top: 16px;
+  max-width: 264px;
   font-weight: 400;
+}
+
+.portfolio_list-item {
+  width: calc((100% - 48px) / 3);
 }
