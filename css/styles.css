@@ -22,6 +22,10 @@ ul {
   padding: 0;
 }
 
+img {
+  display: block;
+}
+
 .content {
   width: 1440px;
   margin: 0 auto;
@@ -31,11 +35,11 @@ ul {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
   padding: 24px 0;
   border-bottom: 1px solid #E7E9FC;
 }
