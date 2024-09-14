@@ -39,14 +39,15 @@ img {
   justify-content: space-between;
 }
 
-.header {
-  padding: 24px 0;
+.page_header {
+  margin: 0 auto;
   border-bottom: 1px solid #E7E9FC;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -71,6 +72,7 @@ img {
 
 .menu_link {
   display: inline-block;
+  padding: 24px 0;
 }
 
 .contacts {
